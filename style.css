@@ -1,0 +1,72 @@
+.container
+{
+    text-align: center;
+    border: 5px solid brown;
+    display: flex;
+   /*  height: 10em;
+    width: 100%;
+    background-color: grey;
+   flex-direction: column;   
+    align-items: stretch;*/
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.disable-select{
+    -moz-user-select:none;
+ }
+.container > div {
+    padding: 10px;
+}
+.logo {
+    background-color: aqua;
+    flex: 1;
+}
+.search {
+    background-color: rgb(255, 255, 255);
+    flex: 2;
+}
+.donate {
+    background-color: rgb(160, 237, 36);
+    flex: 1;
+}
+.login {
+    background-color: rgb(12, 126, 105);
+    flex: 1;
+}
+.logout {
+    background-color: rgb(217, 46, 226);
+    flex: 1;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+}
+.heading h1 {
+    background-color: rgb(63, 252, 63);
+    color: white;
+    font-style: oblique;
+    text-align: center;
+}
+.gallery-heading h1 {
+    background-color: rgb(63, 252, 63);
+    color: white;
+    font-style: oblique;
+    text-align: center;
+}
+.gallery {
+    display: flex;
+    padding-top: 2em;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery img {
+    float: center;
+    width: 100%;
+    height: 252px;
+    background-size: 100%;
+}
